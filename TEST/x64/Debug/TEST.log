@@ -1,0 +1,45 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(TEST.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  AI-brain.cpp
+  ai.cpp
+  UI-test.cpp
+  正在生成代码...
+ai.obj : error LNK2005: "int __cdecl _evaluatePoint(struct Command)" (?_evaluatePoint@@YAHUCommand@@@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "bool __cdecl checkWin(void)" (?checkWin@@YA_NXZ) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "bool __cdecl compareCommands1(struct position const &,struct position const &)" (?compareCommands1@@YA_NAEBUposition@@0@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "bool __cdecl compareCommands2(struct position const &,struct position const &)" (?compareCommands2@@YA_NAEBUposition@@0@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "struct Command __cdecl defendIfNecessary(void)" (?defendIfNecessary@@YA?AUCommand@@XZ) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "void __cdecl end(int)" (?end@@YAXH@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "int __cdecl evaluateBoard(int,int)" (?evaluateBoard@@YAHHH@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "int __cdecl evaluatePoint(struct Command)" (?evaluatePoint@@YAHUCommand@@@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "class std::vector<struct position,class std::allocator<struct position> > __cdecl getPossiblePosition(int)" (?getPossiblePosition@@YA?AV?$vector@Uposition@@V?$allocator@Uposition@@@std@@@std@@H@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "struct Command __cdecl get_position(void)" (?get_position@@YA?AUCommand@@XZ) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "void __cdecl initAI(int)" (?initAI@@YAXH@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "void __cdecl initZobristKey(void)" (?initZobristKey@@YAXXZ) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "void __cdecl initializeZobristTable(void)" (?initializeZobristTable@@YAXXZ) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "void __cdecl loop(void)" (?loop@@YAXXZ) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "int __cdecl minmax(int,int,int,int)" (?minmax@@YAHHHHH@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "bool __cdecl nearby(int,int)" (?nearby@@YA_NHH@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "void __cdecl place(struct Command)" (?place@@YAXUCommand@@@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "void __cdecl start(int)" (?start@@YAXH@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "void __cdecl turn(void)" (?turn@@YAXXZ) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "void __cdecl updateZobristKey(int,int,int)" (?updateZobristKey@@YAXHHH@Z) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: main 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "char (* board)[12]" (?board@@3PAY0M@DA) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "int myFlag" (?myFlag@@3HA) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "int enemyFlag" (?enemyFlag@@3HA) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "int DEPTH" (?DEPTH@@3HA) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "unsigned __int64 (* zobristTable)[12][3]" (?zobristTable@@3PAY1M@2_KA) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "unsigned __int64 zobristKey" (?zobristKey@@3_KA) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "char (* line_x)[13]" (?line_x@@3PAY0N@DA) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "char (* line_y)[13]" (?line_y@@3PAY0N@DA) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "char (* line_r)[13]" (?line_r@@3PAY0N@DA) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "char (* line_l)[13]" (?line_l@@3PAY0N@DA) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "class std::mersenne_twister_engine<unsigned __int64,64,312,156,31,-5403634167711393303,29,6148914691236517205,17,8202884508482404352,37,-2270628950310912,43,6364136223846793005> rng" (?rng@@3V?$mersenne_twister_engine@_K$0EA@$0BDI@$0JM@$0BP@$0?EKPNJAKFFGJJOGBH@$0BN@$0FFFFFFFFFFFFFFFF@$0BB@$0HBNGHPPPONKGAAAA@$0CF@$0?IBBCAAAAAAAAA@$0CL@$0FIFBPECNEMJFHPCN@@std@@A) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "class std::map<unsigned __int64,struct TranspositionEntry,struct std::less<unsigned __int64>,class std::allocator<struct std::pair<unsigned __int64 const ,struct TranspositionEntry> > > transpositionTable" (?transpositionTable@@3V?$map@_KUTranspositionEntry@@U?$less@_K@std@@V?$allocator@U?$pair@$$CB_KUTranspositionEntry@@@std@@@3@@std@@A) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "struct Command bestMove" (?bestMove@@3UCommand@@A) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "class std::vector<struct patterns,class std::allocator<struct patterns> > Pattern" (?Pattern@@3V?$vector@Upatterns@@V?$allocator@Upatterns@@@std@@@std@@A) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "class std::vector<struct patterns,class std::allocator<struct patterns> > _Pattern" (?_Pattern@@3V?$vector@Upatterns@@V?$allocator@Upatterns@@@std@@@std@@A) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "class ACAutomaton acAutomaton" (?acAutomaton@@3VACAutomaton@@A) 已经在 AI-brain.obj 中定义
+ai.obj : error LNK2005: "class ACAutomaton _acAutomaton" (?_acAutomaton@@3VACAutomaton@@A) 已经在 AI-brain.obj 中定义
+UI-test.obj : error LNK2005: main 已经在 AI-brain.obj 中定义
+C:\Users\lenovo\Desktop\五子棋期中项目\GOBANG最终版\x64\Debug\GOBANG最终版.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
